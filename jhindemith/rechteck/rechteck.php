@@ -2,14 +2,14 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Unbenanntes Dokument</title>
+<title>Rechteck</title>
 </head>
 
 <body>
 	<?php
 
 echo "<h1>Aufgabe 4 vom 28. September</h1>";
-echo "<p>Schreiben Sie ein Programm (rechteck.php), welches die Diagonale, die Fläche und den Umfang eines Rechtecks der Seitenlänge a und b berechnet. Verwenden Sie ebenfalls wieder Variablen für die Seitenlängen.</p>";
+echo "<p>Schreiben Sie ein Programm, welches die Diagonale, die Fläche und den Umfang eines Rechtecks der Seitenlänge a und b berechnet. Verwenden Sie ebenfalls wieder Variablen für die Seitenlängen.</p>";
 
 //Zuweisung der Variablen für die Seitenlängen
 $seitenlaengeA=5;
