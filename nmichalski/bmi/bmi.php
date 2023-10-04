@@ -8,10 +8,9 @@
 <body>
 <?php
 echo "<h1>Aufgabe 5 vom 28. September</h1>";
-echo "<p>Schreiben Sie ein Programm, für die Berechnung des Bodymaß-Index. BMI-Formel=Körpergewicht geteilt durch Körpergröße zum Quadrat."
+echo "<p>Schreiben Sie ein Programm, für die Berechnung des Bodymaß-Index. BMI-Formel=Körpergewicht geteilt durch Körpergröße zum Quadrat.</p>";
 	
 //Zuweisung der Variablen
-	
 $koerpergewichtKg=70;
 $koerpergroesseM=165;
 	
