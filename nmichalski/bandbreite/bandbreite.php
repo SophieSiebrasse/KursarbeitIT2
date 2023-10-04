@@ -7,10 +7,16 @@
 
 <body>
 <?php
-echo "<h1>Aufgabe 6 vom 28. September</h1>"
-echo "<p>Schreiben Sie ein Programm, welches die Zeit berechnet, die eine Daateiübertragung in Anspruch nimmt, wenn die Dateigröße sowie die Bandbreite gegeben ist. Entscheiden Sie eigenständig, in welcher Einheit die Werte angegeben werden müssen.</p>";
+echo "<h1>Aufgabe 6 vom 28. September</h1>";
+echo "<p>Schreiben Sie ein Programm, welches die Zeit berechnet, die eine Dateiübertragung in Anspruch nimmt, wenn die Dateigröße sowie die Bandbreite gegeben ist. Entscheiden Sie eigenständig, in welcher Einheit die Werte angegeben werden müssen.</p>";
+
+//Zuweisung der Variablen
+$dateigroesse=20;
+$bandbreite=200;
 	
-	?>
+$zeit=bandbreite/dateigroesse;
+echo($zeit);
+?>
 	
 	
 </body>
