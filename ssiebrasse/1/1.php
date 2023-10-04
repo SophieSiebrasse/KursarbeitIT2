@@ -20,8 +20,7 @@
 	// Berechnung der Fallzeit 
 	$time = sqrt((2 * $height) / G);
 	
-	echo "<p> Ein Gegenstand benötigt etwa $time Sekunden, um aus einer Höhe von $height Metern auf den Boden zu fallen.</p>";
-	
+	echo "<p> Ein Gegenstand benötigt etwa $time Sekunden, um aus einer Höhe von $height Metern auf den Boden zu fallen. < /p>";
 	?>
 
 </body>
