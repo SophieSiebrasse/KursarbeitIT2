@@ -17,6 +17,7 @@ $koerpergroesseM=165;
 	
 echo pow($koerpergroesseM,2);
 $bmi=koerpergewichtKg/pow ($koerpergroesseM,2);
+echo($bmi);
 	
 ?>
 	

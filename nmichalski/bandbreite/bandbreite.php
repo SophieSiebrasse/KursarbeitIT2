@@ -6,10 +6,9 @@
 </head>
 
 <body>
-	<?php
-	
-	
-	
+<?php
+echo "<h1>Aufgabe 6 vom 28. September</h1>"
+echo "<p>Schreiben Sie ein Programm, welches die Zeit berechnet, die eine Daateiübertragung in Anspruch nimmt, wenn die Dateigröße sowie die Bandbreite gegeben ist. Entscheiden Sie eigenständig, in welcher Einheit die Werte angegeben werden müssen."
 	?>
 	
 	
