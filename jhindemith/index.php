@@ -15,6 +15,16 @@
 		<p><input name ="nach">Nachname</p>
 		<p><input type="submit"></p>
 	</form>
+	<?php
+		$a = 435;
+		echo intval($a)."<br>";
+	
+	$b="22.6";
+	echo intval($b)."<br>";
+	echo doubleval($b)."<br>";
+	
+	
+	?>
 	
 </body>
 </html>
