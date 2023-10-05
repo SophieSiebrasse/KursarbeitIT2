@@ -12,10 +12,8 @@
 		$zahl1 = $_POST["zahl1"];
 		$zahl2 = $_POST["zahl2"];
 		//Zeichenketten umwandeln in Zahlen
-		$zahl1 ="zahl1";
-		$zahl2="zahl2";
-		echo intval($zahl1)."<br>";
-		echo intval($zahl2)."<br>";
+		$zahl1 = intval($zahl1);
+		$zahl2 = intval($zahl2);
 		//Rechnung durchführen
 		$ergebnis=$zahl1+$zahl2;
 		//Ergebnis ausgeben
