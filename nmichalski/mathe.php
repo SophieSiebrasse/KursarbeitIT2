@@ -19,6 +19,8 @@
 	$zahl1 = $_POST["z1"];
 	$zahl2 = $_POST["z2"];
 	
+	$zahl1 && $zahl2>=$minWert2
+	
 	//Zeichenketten in Zahlen umwandeln
 	$zahl1=intval($zahl1);
 	$zahl2=intval($zahl2);
