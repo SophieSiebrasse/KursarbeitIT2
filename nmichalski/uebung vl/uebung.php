@@ -2,9 +2,18 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Unbenanntes Dokument</title>
+<title>Formular</title>
 </head>
 
 <body>
+	<h1>Das erste Programm</h1>
+	<form action="../adresse.php" 
+	method="post">
+		<p><input name="vor">Vorname</p>
+		<p><input name="nach">Nachname</p>
+		<p><input type="submit"></p>
+	
+	
+	</form>
 </body>
 </html>
