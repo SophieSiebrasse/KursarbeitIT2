@@ -13,8 +13,7 @@ echo "<p>Schreiben Sie ein Programm, welches die Diagonale, die Fläche und den 
 
 //Zuweisung der Variablen für die Seitenlängen
 $seitenlaengeA=5;
-$seitenlaengeB=10;
-$diagonale=($seitenlaengeA^2)+($seitenlaengeB^2); 
+$seitenlaengeB=10; 
 
 echo pow($seitenlaengeA,2);
 echo pow($seitenlaengeB,2);
