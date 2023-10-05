@@ -15,6 +15,15 @@
 		<p><input name ="nach">Nachname</p>
 		<p><input type="submit"></p>
 	</form>
+	
+	<h1>Die Matheaufgabe</h1>
+	<p>Gebe zwei Zahlen in die Felder ein und adddiere diese. Prüfe ob du richtig gerechnet hast, indem du auf "Submit" klickst</p>
+	<form action="ergebnis.php" method="post">
+		<p><input zahl="$zahl1">Zahl 1</p>
+		<p><input zahl="$zahl2">Zahl 2</p>
+		<p><input type="submit"></p>
+	</form>
+	
 	<?php
 		$a = 435;
 		echo intval($a)."<br>";
