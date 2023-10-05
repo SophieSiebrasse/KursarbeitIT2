@@ -8,6 +8,8 @@
 <body>
 	<a href="../Fallzeit/Fallzeit.php">Aufgabe 1 "Fallzeit"</a>
 	<a href="../Tank/tank.php">Aufgabe 2 "Tank"</a>
-	<a href="../Adresse/index.php">Aufgabe Vorlesung 05.10 "Adresse"</a>
-</body>
+	<a href="adresse/adresse.php">Aufgabe Vorlesung 05.10 "Adresse"</a>
+	
+
+</body>	
 </html>
