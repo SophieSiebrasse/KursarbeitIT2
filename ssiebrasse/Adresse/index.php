@@ -9,7 +9,7 @@
 	<a href="Adresse/Adresse.php">Aufgabe Vorlesung 05.10 "Adresse"</a>
 	
 	<form action="adresse.php" method="post" >
-		</p> Vorname</p>
+		</p><input name="vor"> Vorname</p>
 	    </p><input name="nach"> Nachname</p>
         </p><input type= "submit"></p>
 </form>
