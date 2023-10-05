@@ -14,7 +14,6 @@
 	<p><input type="submit"></p>
 	
 
-
 	<?php
 	// Zahlen aus Mathe übernehmen
 	$zahl1 = $_POST["z1"];

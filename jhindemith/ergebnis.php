@@ -9,8 +9,8 @@
 	<h1>Ergebnis</h1>
 	<?php
 		//Zahlen aus mathe.php übernehmen
-		$zahl1 = $_POST["zahl1"];
-		$zahl2 = $_POST["zahl2"];
+		$zahl1 = $_POST["z1"];
+		$zahl2 = $_POST["z2"];
 		//Zeichenketten umwandeln in Zahlen
 		$zahl1 = intval($zahl1);
 		$zahl2 = intval($zahl2);
