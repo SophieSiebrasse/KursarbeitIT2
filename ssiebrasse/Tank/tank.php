@@ -4,9 +4,11 @@
     <title>Tankfuellung Berechnung</title>
 </head>
 <body>
-    <h1>Tankfuellung Berechnung</h1>
     
     <?php
+	
+	echo "<h1> Aufgabe 2 IT2 28.09.23</h1>";
+	echo "<p> Schreiben ein Programm (tank.php) fuer die Berechnung des Gesamtpreises einer Tankfuellung, wenn eine Menge in Litern ,sowie der Preis in Euro pro Liter bekannt ist.</p>";
     
 	// Menge in Litern
     
