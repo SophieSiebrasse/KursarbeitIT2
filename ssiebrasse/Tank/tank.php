@@ -4,7 +4,6 @@
     <title>Tankfuellung Berechnung</title>
 </head>
 <body>
-    <h1>Tankfuellung Berechnung</h1>
     
     <?php
 	
