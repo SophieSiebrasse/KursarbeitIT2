@@ -10,7 +10,7 @@
 	
 	<?php
 	echo "Guten Tag,
-	". $_Post["vor"]. ". $_Post["nach"]".
+	".$_Post["vor"].".$_Post["nach"]".
 	?>
 
 </body>
