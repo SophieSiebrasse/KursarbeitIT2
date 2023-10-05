@@ -19,8 +19,8 @@
 	<h1>Die Matheaufgabe</h1>
 	<p>Gebe zwei Zahlen in die Felder ein und adddiere diese. Prüfe ob du richtig gerechnet hast, indem du auf "Senden" klickst</p>
 	<form action="ergebnis.php" method="post">
-		<p><input zahl="z1">Zahl 1</p>
-		<p><input zahl="z2">Zahl 2</p>
+		<p><input number="z1">Zahl 1</p>
+		<p><input number="z2">Zahl 2</p>
 		<p><input type="submit"></p>
 	</form>
 	

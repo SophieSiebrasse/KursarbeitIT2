@@ -14,10 +14,36 @@
 		//Zeichenketten umwandeln in Zahlen
 		$zahl1 = intval($zahl1);
 		$zahl2 = intval($zahl2);
+	
+		//Verzweigungen mit if (das "else" ist optional. Nicht nötig, wenn sonst nichts passiert wenn Bedingung mit erfüllt)
+		/*Vergleichsoperatoren
+			== gleich (ja, 2 Gleichheitszeichen!)
+			!= ungleich
+			< kleiner als
+			> größer als
+			>= größer als oder gleich
+			<= kleiner als oder gleich
+		*/
+		/*
+		if($zahl1>=5)
+			{
+			//Rechnung durchführen
+			$ergebnis=$zahl1+$zahl2;
+				//Ergebnis ausgeben
+				echo "$zahl1+$zahl2=".$ergebnis;
+			}
+				else
+					{
+					echo "Zahl 1 muss größer 5 sein";
+					}
+				
+			*/		
+	
 		//Rechnung durchführen
 		$ergebnis=$zahl1+$zahl2;
 		//Ergebnis ausgeben
 		echo "$zahl1+$zahl2=".$ergebnis;
+	
 		
 	?>
 </body>
