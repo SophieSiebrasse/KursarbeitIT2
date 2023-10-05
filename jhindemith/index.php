@@ -19,9 +19,9 @@
 		$a = 435;
 		echo intval($a)."<br>";
 	
-	$b="22.6";
-	echo intval($b)."<br>";
-	echo doubleval($b)."<br>";
+		$b="22.6";
+		echo intval($b)."<br>";
+		echo doubleval($b)."<br>";
 	
 	
 	?>
