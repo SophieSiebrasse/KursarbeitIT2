@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Matheaufgabe</title>
+</head>
+
+<body>
+	<h1>Ergebnis</h1>
+	<?php
+		//Zahlen aus mathe.php übernehmen
+		$zahl1 = $_POST["zahl1"];
+		$zahl2 = $_POST["zahl2"];
+		//Zeichenketten umwandeln in Zahlen
+		$zahl1 ="zahl1";
+		$zahl2="zahl2";
+		echo intval($zahl1)."<br>";
+		echo intval($zahl2)."<br>";
+		//Rechnung durchführen
+		$ergebnis=$zahl1+$zahl2;
+		//Ergebnis ausgeben
+		echo "$zahl1+$zahl2=".$ergebnis;
+		
+	?>
+</body>
+</html>
