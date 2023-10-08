@@ -8,9 +8,37 @@
 <body>
 	<a href="Fallzeit/Fallzeit.php">Aufgabe 1 "Fallzeit"</a>
 	<a href="Tank/tank.php">Aufgabe 2 "Tank"</a>
-	<a href="Adresse 05.10/Adresse.php">"Adresse"</a>
-	<a href= "Ergebnis/Ergebnis.php" >Matheaufgabe</a> 
+
 	
+</body>
+</html>
+
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Formular</title>
+</head>
+
+<body>
+	<h1>Das erste Programm</h1>
+	<form action="../adresse.php" method="post">
+		<p><input name="vor">Vorname</p>
+		<p><input name="nach">Nachname</p>
+		<p><input type="submit"></p>
+	</form>
+	<?php
+		$a = 435;
+		echo intval($a)."<br>";
+	
+	$b="22.6";
+	echo intval($b)."<br>";
+	echo doubleval($b)."<br>";
+	
+	?>
+	
+	
+	</form>
 </body>
 </html>
 
