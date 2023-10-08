@@ -22,7 +22,7 @@
 </head>
 
 <body>
-	<h1>Das erste Programm Vor- und Nachname wird aus Formular übernommen und angezeigt.</h1>
+	<h1>Das erste Programm </h1>
 	<form action ="Adresse.php" method="post">
 		<p><input name="vor">Vorname</p>
 		<p><input name="nach">Nachname</p>
