@@ -7,33 +7,54 @@
 
 <body>
 	Aufgabe 1 - Fallzeit
-	<p>Berechnung des freies Falls eines Handys - Version 1</p>
-	<p><input name ="planet">Erde, Mond, Mars oder Jupiter</p>
-	<?php
-		// Dies ist ein Kommentar.
+	<p>Berechnung des freies Falls eines Handys</p>
+	<p>Wähle einen Planeten aus, auf welchem du die Fallzeit berechnen möchtest.</p>
+	<form method="post">
+        <label for="planet">Wähle einen Planeten:</label>
+        <select name="planet" id="planet">
+            <option value="erde">Erde</option>
+            <option value="mond">Mond</option>
+            <option value="jupiter">Jupiter</option>
+            <option value="mars">Mars</option>
+        </select>
+        <br>
+        <label for="fallhoehe">Fallhöhe (in Metern):</label>
+        <input type="number" name="fallhoehe" id="fallhoehe" step="0.01">
+        <br>
+        <input type="submit" value="Berechnen">
+    </form>
+
+
 	
-		
-		/* Ein mehrzeiliger Kommentar, 
-		der wieder mit einen Sternchen gefolgt vom Schrägstrich geschlossen werden muss.
-		*/
-		// Definition der benötigten Variablen
-		$hoehe=15;
-	    const fallbeschleunigungErde = 9.81; // Definition einer Konstanten. Es wird kein $-Zeichen vorangestellt.
-		const fallbeschleunigungMond = 1.62;
-		const fallbeschleunigungMars = 3.69;
-		const fallbeschleunigungJupiter = 24.79;
-			
-		if (hoehe>=15)
-			{
-				echo (sqrt((2*$hoehe)/(fallbeschleunigungErde))); // Berechnung und Ausgabe	
-			}
-				else
-					{
-					echo "Die Höhe muss mindestens 15m betragen";
-					}
-		
+	<?php
+	if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+        $ausgewaehlterPlanet = $_POST['planet'];
+        $fallhoehe = floatval($_POST['fallhoehe']);
+
+        // Erdbeschleunigung auf verschiedenen Planeten (in m/s^2)
+        $erdbeschleunigung = [
+            'erde' => 9.81,
+            'mond' => 1.62,
+            'jupiter' => 24.79,
+            'mars' => 3.69,
+        ];
+
+        $fallzeit = sqrt((2 * $fallhoehe) / $erdbeschleunigung[$ausgewaehlterPlanet]);
+
+         echo "<table>
+                <tr>
+                    <th>Höhe (m)</th>
+                    <th>Zeit (s)</th>
+                </tr>
+                <tr>
+                    <td>$fallhoehe</td>
+                    <td>$fallzeit</td>
+                </tr>
+              </table>";
+    }
 	
 	?>
+	
 	
 	Aufgabe 2 - Tank
 	<p>Berechnung der Tankkosten</p>
