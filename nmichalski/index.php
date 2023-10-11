@@ -8,6 +8,7 @@
 <body>
 	<a href="bmi/bmi.php" >Aufgabe 5: BMI</a>
 	<a href="bandbreite/bandbreite.php" >Aufgabe 6: Bandbreite</a>
+	<a href="stylesheet/style.css" >Stylesheet</a>
 	
 	
 	<h1>Das erste Programm</h1>
