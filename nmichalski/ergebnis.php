@@ -2,9 +2,11 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Unbenanntes Dokument</title>
+<title>Ergebnis</title>
 </head>
 
 <body>
+	<h1>Ergebnis</h1>
+	
 </body>
 </html>

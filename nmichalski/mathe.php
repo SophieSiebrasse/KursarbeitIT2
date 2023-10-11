@@ -28,7 +28,33 @@
 	// Ergebnis azsgeben
 	echo $zahl1 + $zahl2 = ".$ergebnis";
 	
+	
+	
+	// Verzweigung mit if
+	/* Vergleichsoperatoren
+	== gleich
+	!= ungleich
+	< kleiner als
+	> größer als
+	>= größer als oder gleich
+	<= kleiner als oder gleich
+	
+	*/
+	if($zahl1>=5)
+		{
+		// Rechnung durchführen
+		$ergebnis=$zahl1+$zahl2;
+		// Ergebnis ausgeben
+		echo " $zahl1 + $zahl2 ";
+		}
+			else
+			{
+				echo 
+			}
+	
 	?>
+	
+	
 	
 </body>
 </html>
