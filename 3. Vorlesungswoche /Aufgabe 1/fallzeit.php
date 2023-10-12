@@ -9,7 +9,7 @@
 	Aufgabe 1 - Fallzeit
 	<p>Berechnung des freies Falls eines Handys</p>
 	<p>Wähle einen Planeten aus, auf welchem du die Fallzeit berechnen möchtest.</p>
-	<form action="ergebnis.php" method="post">
+	<form action="../../Vorlesungswoche 3/Aufgabe 1/ergebnis.php" method="post">
         <label for="planet">Wähle einen Planeten:</label>
         <select name="planet" id="planet">
             <option value="erde">Erde</option>
