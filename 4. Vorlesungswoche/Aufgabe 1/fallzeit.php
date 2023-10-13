@@ -3,9 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <title>Fallzeitberechnung</title>
-    <link rel="stylesheet" type="text/css" href="style.css"></title>
 </head>
-	
+
 <body>
 	Aufgabe 1 - Fallzeit
 	<p>Berechnung des freies Falls eines Handys</p>
@@ -24,6 +23,5 @@
         <br>
         <input type="submit" value="Berechnen">
     </form>
-
 </body>
 </html>
