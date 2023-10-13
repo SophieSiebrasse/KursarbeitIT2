@@ -7,12 +7,7 @@
 
 <body>
 	<a href="gleichung/gleichung.php">Aufgabe 3 "Gleichung"</a>
-		<br>
 	<a href="rechteck/rechteck.php">Aufgabe 4 "Rechteck"</a>
-		<br>
-	<a href="vorlesungswoche3.php">Vorlesungswoche 3</a>
-		<br>
-	<a href="style.css">Stylecheet"</a>
 	
 	<h1>Das erste Programm</h1>
 	<form action ="adresse.php" method="post">  

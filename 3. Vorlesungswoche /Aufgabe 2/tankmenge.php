@@ -2,6 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<<<<<<< Updated upstream
 <title>Berechnung der Tankkosten</title>
 	<link rel="stylesheet" type="text/css" href="../stylesheet/style.css">
 </head>
@@ -68,5 +69,28 @@
 			include 'tankTabelle_inc.php'; 
 			include '../backLink_inc.php'; 
 	?>
+=======
+<title>Tankpreis berechnen</title>
+</head>
+
+<body>
+	<h1>Tankpreisrechner</h1>
+    <form method="post" action="ergebnisse.php">
+        <label for="mengeInLitern">Menge in Litern (min. 10 Liter):</label>
+        <input type="number" name="mengeInLitern" min="10" required><br>
+
+        <label for="preisProLiter">Preis pro Liter (in Euro):</label>
+        <input type="number" step="0.01" name="preisProLiter" required><br>
+
+        <label for="kraftstoffart">Kraftstoffart:</label>
+        <select name="kraftstoffart" required>
+            <option value="Diesel">Diesel (1.8 Euro/Liter)</option>
+            <option value="Super">Super (1.9 Euro/Liter)</option>
+            <option value="Benzin95">Benzin 95 (1.85 Euro/Liter)</option>
+        </select><br>
+
+        <input type="submit" value="Berechnen">
+    </form>
+>>>>>>> Stashed changes
 </body>
 </html>

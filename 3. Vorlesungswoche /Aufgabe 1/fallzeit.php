@@ -2,7 +2,8 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Fallzeit</title>
+<title><title>Fallzeitberechnung</title>
+    <link rel="stylesheet" type="text/css" href="style.css"></title>
 </head>
 	
 <body>
@@ -18,8 +19,8 @@
             <option value="mars">Mars</option>
         </select>
         <br>
-        <label for="fallhoehe">Fallhöhe (in Metern):</label>
-        <input type="number" name="fallhoehe" id="fallhoehe" step="0.01">
+		<label for="fallhoehe">Fallhöhe (in Metern, mindestens 15 m):</label>
+        <input type="number" name="fallhoehe" id="fallhoehe" step="0.01" min="15">
         <br>
         <input type="submit" value="Berechnen">
     </form>
