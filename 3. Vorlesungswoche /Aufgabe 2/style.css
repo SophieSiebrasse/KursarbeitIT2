@@ -1,9 +1,6 @@
 /* CSS Document */
-table {
-    border-collapse: collapse;
-    width: 50%;
-    margin: 20px auto;
-}
+table
+{border-collapse: collapse}
 
 th, td {
     border: 1px solid #ddd;

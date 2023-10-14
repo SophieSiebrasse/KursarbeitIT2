@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Fallzeitberechnung</title>
+	<link rel="stylesheet" type="text/css" href="style.css"></title>
 </head>
 
 <body>
@@ -23,5 +24,6 @@
         <br>
         <input type="submit" value="Berechnen">
     </form>
+	
 </body>
 </html>
