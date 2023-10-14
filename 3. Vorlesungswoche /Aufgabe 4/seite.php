@@ -7,8 +7,10 @@
 	
 	<h1>Aufgabe 4</h1>
 	<p>Seite a und die Seite b dürfen nicht 0 sein.</p>
+
+<body>
 	
-<?php
+	<?php
 
 function pruefeSeiten($a, $b) {
     if ($a != 0 && $b != 0) {
@@ -27,6 +29,5 @@ pruefeSeiten($seite_a, $seite_b);
 ?>
 
 
-<body>
 </body>
 </html>
