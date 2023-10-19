@@ -8,11 +8,11 @@
 <body>
 	<h1> Aufgaben Vorlesungswoche 3</h1>
 
-	<a href="Aufgabe 1/fallzeit.php" > Aufgabe 1 </a>;
+	<a href="Aufgabe 1/fallzeit.php" > Aufgabe 1 </a> <br>
 	
-	<a href="Aufgabe 2/tank.php" > Aufgabe 2 </a>;
+	<a href="Aufgabe 2/tank.php" > Aufgabe 2 </a> <br>
 	
-	<a href="Aufgabe 3/gleichung.php" > Aufgabe 3</a>;
+	<a href="Aufgabe 3/gleichung.php" > Aufgabe 3</a> <br>
 	
 	<a href="Aufgabe 4/seite.php" > Aufgabe 4 </a>;
 	
