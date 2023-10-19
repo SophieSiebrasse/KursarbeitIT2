@@ -13,7 +13,7 @@
 		<a href="Aufgabe 4/seite.php" >Aufgabe 4</a> <br>
 		<a href="Aufgabe 5/bmi.php" >Aufgabe 5</a> <br>
 		<a href="Aufgabe 6/dateigroessse.php" >Aufgabe 6</a> <br>
-		<a href="schleifen.php" >Schleifen</a>
+		<a href="schleifen.php" >Schleife</a>
 	
 </body>
 </html>

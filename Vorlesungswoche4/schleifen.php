@@ -7,9 +7,15 @@
 
 <body>
 	<?php
-	function trennlinie()
+	function trennlinie($anzahlZeichen,$zeichen)
 	{
-		echo "<p>==============</p>";
+		echo "<p>";
+		for($i=1;$i<=$anzahlZeichen;$i++)
+		{
+
+			echo $zeichen;
+		}
+		echo "</p>";
 	}
 	
 	
@@ -36,6 +42,11 @@
 		}
 	?>
 	</table>
+				<?php trennlinie(30,"=")?>
+					
+	<?php trennlinie(34,"-")?>
+	<?php trennlinie(54,"+")?>
+	<?php trennlinie(777,"m")?>
 	<p>===========</table>
 					
 </body>
