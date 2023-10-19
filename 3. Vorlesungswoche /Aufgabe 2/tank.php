@@ -7,7 +7,7 @@
 
 <body>
 <h1>Tankstellenrechner - Berechnung</h1>
-    <form method="post" action="ergebnisse.php">
+    <form method="post" action="ergebnis.php">
         <label for="mengeInLitern">Menge in Litern (min. 10 Liter):</label>
         <input type="number" name="mengeInLitern" min="10" required><br>
 
