@@ -1,15 +1,9 @@
 <!doctype html>
 <html>
-<head>
-<meta charset="UTF-8">
-<title>Teamwebsite</title>
-</head>
- 
+
+	<?php include 'pages/include/head.php'; ?>
 <body>
-	<a href="pages/head.php" >Head</a> <br>
-	<a href="pages/menue.php" >Menü</a> <br>
-	<a href="pages/content.php" >Content</a> <br>
-	<a href="pages/footer.php" >Footer</a> <br>
+	<h1>Hallo Test</h1>
 	
 </body>
 </html>
