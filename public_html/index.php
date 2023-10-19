@@ -2,14 +2,14 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Internettechnologie 2</title>
+<title>Teamwebsite</title>
 </head>
-
+ 
 <body>
-	<a href="nmichalski/" > Hier gehts zu den Seiten von NMichalski</a>	
-	<a href="jhindemith/" > Hier gehts zu den Seiten von JHindemith</a>
-	<a href="ssiebrasse/" > Hier gehts zu den Seiten von SSiebrasse</a>
-	
+	<a href="pages/head.php" >Head</a> <br>
+	<a href="pages/menue.php" >Menü</a> <br>
+	<a href="pages/content.php" >Content</a> <br>
+	<a href="pages/footer.php" >Footer</a> <br>
 	
 </body>
-</html> 
+</html>
