@@ -14,9 +14,9 @@
 	
 	<a href="../3. Vorlesungswoche /Aufgabe 3/gleichung.php" > Aufgabe 3</a> <br>
 	
-	<a href="../3. Vorlesungswoche /Aufgabe 4/seite.php" > Aufgabe 4 </a>; <br>
+	<a href="../3. Vorlesungswoche /Aufgabe 4/seite.php" > Aufgabe 4 </a>;
 	
-	<a href="../3. Vorlesungswoche /Aufgabe 5/bmi.php" > Aufgabe 5</a>; <br>
+	<a href="../3. Vorlesungswoche /Aufgabe 5/bmi.php" > Aufgabe 5</a>;
 	
 	<a href="../3. Vorlesungswoche /Aufgabe 6/dateigroesse.php" > Aufgabe 6 </a>;
 </body>
