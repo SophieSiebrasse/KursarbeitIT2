@@ -6,10 +6,21 @@
 </head>
 
 <body>
+	<?php
+	function trennlinie()
+	{
+		echo "<p>==============</p>";
+	}
+	
+	
+	?>
+	
 	<h1>Schleifen</h1>
+	<p>===========</p>
 	
 	<table border=1">
 	<?php
+					
 		for($zeilenzaehler=1; $zeilenzaehler<=10; $zeilenzaehler++)
 		{
 			echo "<tr>";
@@ -25,7 +36,7 @@
 		}
 	?>
 	</table>
-					
+	<p>===========</table>
 					
 </body>
 </html>

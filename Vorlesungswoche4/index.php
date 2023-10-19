@@ -12,7 +12,8 @@
 		<a href="Aufgabe 3/gleichung.php" >Aufgabe 3</a> <br>
 		<a href="Aufgabe 4/seite.php" >Aufgabe 4</a> <br>
 		<a href="Aufgabe 5/bmi.php" >Aufgabe 5</a> <br>
-		<a href="Aufgabe 6/dateigroessse.php" >Aufgabe 6</a>
+		<a href="Aufgabe 6/dateigroessse.php" >Aufgabe 6</a> <br>
+		<a href="schleifen.php" >Schleifen</a>
 	
 </body>
 </html>
