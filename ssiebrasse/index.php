@@ -8,7 +8,7 @@
 <body>
 	<a href="Fallzeit/Fallzeit.php">Aufgabe 1 "Fallzeit"</a>
 	<a href="Tank/tank.php">Aufgabe 2 "Tank"</a>
- 
+   <form action="../adresse.php" method="post">
 	
 	
 </body>
