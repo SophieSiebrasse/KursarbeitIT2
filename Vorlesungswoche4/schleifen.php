@@ -7,6 +7,13 @@
 
 <body>
 	<?php
+		function add($z1,$z2)
+		{
+			$ergebnis=$z1+$z2;
+			return $ergebnis; //Variable wird zurückgegeben
+		}
+	
+	
 	function trennlinie($anzahlZeichen,$zeichen)
 	{
 		echo "<p>";
@@ -25,6 +32,10 @@
 	<p>===========</p>
 	
 	<table border=1">
+					
+		<?php
+				echo(add(2,3));	
+					?>
 	<?php
 					
 		for($zeilenzaehler=1; $zeilenzaehler<=10; $zeilenzaehler++)
