@@ -7,6 +7,7 @@
     <title>Würfel Berechnung</title>
 </head>
 <body>
+	<h1>Würfelberechnung</h1>
     <?php
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Werte aus dem Formular erhalten
