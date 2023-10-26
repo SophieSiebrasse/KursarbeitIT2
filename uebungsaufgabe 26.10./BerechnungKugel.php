@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Kugelberechnung</title>
+    <title>Kugelberechnung mit Wertetabelle</title>
 </head>
 <body>
-    <h1>Kugelberechnung</h1>
+    <h1>Kugelberechnung mit Wertetabelle</h1>
 
     <?php
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -18,31 +18,27 @@
             <h2>Ergebnisse:</h2>
             <table>
                 <tr>
-                    <th>Parameter</th>
-                    <th>Wert</th>
+                    <th>Radius</th>
+                    <th>Volumen</th>
+                    <th>Oberfläche</th>
                 </tr>
-                <tr>
-                    <td>Radius</td>
-                    <td><?php echo $radius; ?></td>
-                </tr>
-                <tr>
-                    <td>Volumen</td>
-                    <td><?php echo $volumen; ?></td>
-                </tr>
-                <tr>
-                    <td>Oberfläche</td>
-                    <td><?php echo $oberflaeche; ?></td>
-                </tr>
+                <?php
+                for ($r = 0.1; $r <= $radius; $r += 0.1) {
+                    $v = (4/3) * M_PI * pow($r, 3);
+                    $o = 4 * M_PI * pow($r, 2);
+                    echo "<tr><td>$r</td><td>$v</td><td>$o</td></tr>";
+                }
+                ?>
             </table>
     <?php
         } else {
-            echo "Der Radius muss größer als 0 sein";
+            echo "Fehler: Bitte geben Sie einen gültigen Radius ein (größer als 0).";
         }
     } else {
     ?>
         <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
             <label for="radius">Radius:</label>
-            <input type="number" name="radius" step="0.01" required>
+            <input type="number" name="radius" step="0.1" required>
             <input type="submit" value="Berechnen">
         </form>
     <?php
