@@ -12,7 +12,7 @@
 	<a href="Vorlesungswoche3/index.php" > Vorlesungswoche 3 </a> <br>
 	<a href="Vorlesungswoche4/index.php" >Vorlesungswoche 4</a> <br>
 	<a href="public_html/index.php" >Teamwebsite</a> <br>
-	<a href="Vorlesungswoche4/schleifen.php" >Schleifen</a>
+	<a href="Vorlesungswoche4/schleifen.php" >Schleifen</a> <br>
 	<a href="uebungsaufgabe 26.10./index.php">Übungsaufgabe 26. Oktober</a>
 
 	
