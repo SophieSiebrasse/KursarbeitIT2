@@ -21,7 +21,7 @@
             echo "Oberfläche: " . $oberflaeche . "<br>";
             echo "Mantelfläche: " . $mantelflaeche . "<br>";
         } else {
-            echo "Alle Werte müssen größer als 0 sein. Bitte erneut eingeben.";
+            echo "Die Werte müssen größer als Null sein.";
         }
     }
     ?>
