@@ -36,7 +36,7 @@
             </table>
     <?php
         } else {
-            echo "Fehler: Bitte geben Sie einen gültigen Radius ein (größer als 0).";
+            echo "Der Radius muss größer als 0 sein";
         }
     } else {
     ?>
