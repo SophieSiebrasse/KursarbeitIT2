@@ -3,6 +3,22 @@
 <head>
 <meta charset="UTF-8">
 <title>Berechnung Zylinder</title>
+	<style>
+        table {
+            border-collapse: collapse;
+            width: 50%;
+            margin: auto;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+        }
+
+        th, td {
+            padding: 8px;
+            text-align: center;
+        }
+    </style>
 </head>
 
 <body>
@@ -17,13 +33,18 @@
             $oberflaeche = 2 * M_PI * $r * ($r + $h);
             $mantelflaeche = 2 * M_PI * $r * $h;
 
-            echo "Volumen: " . $volumen . "<br>";
-            echo "Oberfläche: " . $oberflaeche . "<br>";
-            echo "Mantelfläche: " . $mantelflaeche . "<br>";
+            // Tabelle mit Ergebnissen
+            echo "<h2>Berechnungsergebnisse</h2>";
+            echo "<table>";
+            echo "<tr><th>Größe</th><th>Wert</th></tr>";
+            echo "<tr><td>Volumen</td><td>$volumen</td></tr>";
+            echo "<tr><td>Oberfläche</td><td>$oberflaeche</td></tr>";
+            echo "<tr><td>Mantelfläche</td><td>$mantelflaeche</td></tr>";
+            echo "</table>";
         } else {
-            echo "Die Werte müssen größer als Null sein.";
+            echo "Alle Werte müssen größer als 0 sein. Bitte erneut eingeben.";
         }
     }
-    ?>
+?>
 </body>
 </html>
