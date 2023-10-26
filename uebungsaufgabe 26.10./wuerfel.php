@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Würfel Berechnung</title>
+	
 </head>
 <body>
 	<h1>Würfelberechnung</h1>
@@ -36,5 +37,23 @@
         Kantenlänge: <input type="text" name="kantenlaenge"><br>
         <input type="submit" value="Berechnen">
     </form>
+	
+	<style>
+        table {
+            border-collapse: collapse;
+            width: 50%;
+            margin-top: 20px;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+    </style>
+	
 </body>
 </html>
