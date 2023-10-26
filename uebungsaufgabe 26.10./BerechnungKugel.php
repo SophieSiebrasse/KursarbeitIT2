@@ -2,6 +2,22 @@
 <html>
 <head>
     <title>Kugelberechnung mit Wertetabelle</title>
+	 <style>
+        table {
+            border-collapse: collapse;
+            width: 50%;
+            margin: 0 auto;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+        }
+
+        th, td {
+            padding: 8px;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
     <h1>Kugelberechnung mit Wertetabelle</h1>
