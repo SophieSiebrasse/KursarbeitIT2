@@ -26,7 +26,7 @@
             echo "<p>Mantelfläche: $mantelflaeche</p>";
         } else {
             // Fehlermeldung ausgeben
-            echo "<p>Die eingegebene Kantenlänge muss größer als 0 sein.</p>";
+            echo "<p>Die Kantenlänge muss größer als 0 sein.</p>";
         }
     }
     ?>

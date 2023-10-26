@@ -14,7 +14,7 @@ $kugelWerte = berechneKugel($radius);
 if ($kugelWerte) {
     erstelleTabelle($kugelWerte);
 } else {
-    echo "Fehler: Bitte geben Sie einen gültigen Radius ein.";
+    echo "Fehler: Der Radius muss größer als 0 sein.";
 }
 	
 </body>
