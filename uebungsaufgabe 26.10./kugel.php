@@ -6,7 +6,7 @@
 </head>
 
 <body>
-	<form method="post" action="berechnung.php">
+	<form method="post" action="BerechnungKugel.php">
     <label for="radius">Radius:</label>
     <input type="number" name="radius" required min="0.01">
     <input type="submit" value="Berechnen">

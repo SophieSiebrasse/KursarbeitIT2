@@ -1,42 +1,53 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>Berechnung des Radius, Volumen und der Oberfläche der Kugel</title>
+    <title>Kugelberechnung</title>
 </head>
-
 <body>
-<?php
-include('../templates/header.php');
-include('../templates/menu.php');
-include('../includes/functions.php');
+    <h1>Kugelberechnung</h1>
 
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $radius = $_POST['radius'];
+    <?php
+    if ($_SERVER["REQUEST_METHOD"] == "POST") {
+        $radius = $_POST["radius"];
 
-    $ergebnisse = berechneKugel($radius);
-
-    if ($ergebnisse) {
-        echo "<h2>Kugelberechnung:</h2>";
-        echo "<p>Radius: $radius</p>";
-        echo "<table>";
-        foreach ($ergebnisse as $key => $value) {
-            echo "<tr><td>$key</td><td>$value</td></tr>";
+        // Überprüfen, ob der eingegebene Radius gültig ist
+        if ($radius > 0) {
+            $volumen = (4/3) * M_PI * pow($radius, 3);
+            $oberflaeche = 4 * M_PI * pow($radius, 2);
+    ?>
+            <h2>Ergebnisse:</h2>
+            <table>
+                <tr>
+                    <th>Parameter</th>
+                    <th>Wert</th>
+                </tr>
+                <tr>
+                    <td>Radius</td>
+                    <td><?php echo $radius; ?></td>
+                </tr>
+                <tr>
+                    <td>Volumen</td>
+                    <td><?php echo $volumen; ?></td>
+                </tr>
+                <tr>
+                    <td>Oberfläche</td>
+                    <td><?php echo $oberflaeche; ?></td>
+                </tr>
+            </table>
+    <?php
+        } else {
+            echo "Fehler: Bitte geben Sie einen gültigen Radius ein (größer als 0).";
         }
-        echo "</table>";
     } else {
-        echo "Fehler: Bitte geben Sie einen gültigen Radius ein.";
+    ?>
+        <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
+            <label for="radius">Radius:</label>
+            <input type="number" name="radius" step="0.01" required>
+            <input type="submit" value="Berechnen">
+        </form>
+    <?php
     }
-} else {
-    echo "<h2>Kugelberechnung:</h2>";
-    echo "<form method='post' action='kugel.php'>";
-    echo "<label for='radius'>Radius:</label>";
-    echo "<input type='number' name='radius' required step='0.01'>";
-    echo "<input type='submit' value='Berechnen'>";
-    echo "</form>";
-}
+    ?>
 
-include('../templates/footer.php');
-
-
+</body>
 </html>
