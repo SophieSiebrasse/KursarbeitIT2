@@ -6,22 +6,37 @@
 </head>
 
 <body>
-<!-- berechnung.php -->
+<?php
+include('../templates/header.php');
+include('../templates/menu.php');
+include('../includes/functions.php');
 
-	<?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $radius = $_POST['radius'];
 
-    if ($radius > 0) {
-        $volumen = (4/3) * M_PI * pow($radius, 3);
-        $oberflaeche = 4 * M_PI * pow($radius, 2);
+    $ergebnisse = berechneKugel($radius);
 
+    if ($ergebnisse) {
         echo "<h2>Kugelberechnung:</h2>";
         echo "<p>Radius: $radius</p>";
-        echo "<p>Volumen: $volumen</p>";
-        echo "<p>Oberfläche: $oberflaeche</p>";
+        echo "<table>";
+        foreach ($ergebnisse as $key => $value) {
+            echo "<tr><td>$key</td><td>$value</td></tr>";
+        }
+        echo "</table>";
     } else {
         echo "Fehler: Bitte geben Sie einen gültigen Radius ein.";
     }
+} else {
+    echo "<h2>Kugelberechnung:</h2>";
+    echo "<form method='post' action='kugel.php'>";
+    echo "<label for='radius'>Radius:</label>";
+    echo "<input type='number' name='radius' required step='0.01'>";
+    echo "<input type='submit' value='Berechnen'>";
+    echo "</form>";
 }
+
+include('../templates/footer.php');
+
+
 </html>
