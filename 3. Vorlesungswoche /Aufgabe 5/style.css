@@ -1,0 +1,27 @@
+/* Stil für die gerade Zeilen */
+tr.even {
+    background-color: #f2f2f2; /* Helle Hintergrundfarbe für gerade Zeilen */
+}
+
+/* Stil für die ungeraden Zeilen */
+tr.odd {
+    background-color: #ffffff; /* Weiße Hintergrundfarbe für ungerade Zeilen */
+}
+
+/* Allgemeine Stile für die Tabelle */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd; /* Trennlinien zwischen den Zeilen */
+}
+
+th {
+    background-color: #4CAF50; /* Hintergrundfarbe für die Kopfzeile */
+    color: white;
+}
