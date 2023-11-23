@@ -10,7 +10,7 @@
     <header>
         <h1>Mein Blog</h1>
         <nav>
-            <a href="startseite.php">Startseite</a>
+            <a href="menue.php">Startseite</a>
         </nav>
     </header>
 
